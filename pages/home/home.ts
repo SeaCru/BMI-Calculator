@@ -1,9 +1,11 @@
+import {extractStyleUrls } from '@angular/compiler/src/style_url_resolver';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 @Component({
   selector: 'page-home',
-  templateUrl: 'home.html'
+  templateUrl: 'home.html',
+  styleUrls: ['home.css']
 })
 export class HomePage {
   height: number;
